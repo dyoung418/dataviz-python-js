@@ -1,0 +1,8 @@
+#vim backup files
+*~
+
+# git repository from book author (don't duplicate in this repository)
+dataviz-with-python-and-js/
+
+# jupyter stuff
+.ipynb_checkpoints/

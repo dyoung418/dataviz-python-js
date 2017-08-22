@@ -1,0 +1,63 @@
+body {
+  background: #ccc;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div.dev {
+  border: solid 1px red;
+}
+
+div.dev div {
+  border: dashed 1px green;
+}
+
+div#chart-holder {
+  width 600px;
+  background: white;
+  margin: auto;
+  font-size: 16px;
+}
+
+div#chart-components {
+  height: 400px;
+  position: relative; #makes chart-components the relative parent
+}
+
+div#main, div#sidebar {
+  position: absolute; #makes main and sidebar relative to chart-components
+}
+
+div#main {
+  width: 75%;
+  height: 100%;
+  background: #eee;
+}
+
+div#sidebar {
+  right: 0;
+  width: 25%;
+  height: 100%;
+}
+
+svg#chart {
+  width: 100%;
+  height: 100%;
+}
+
+#chart circle { fill: #11617b;}
+#chart line { stroke: #555555; stroke-width: 2;}
+#chart rect { stroke: red; fill: white;}
+#chart polygon { fill: green;}
+#chart path { stroke: red; fill: none;}
+
+
+
+
+#lead {
+  font-size: 150%;
+}
+
+.alert {
+  color:red;
+  background:yellow;
+}

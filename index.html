@@ -1,0 +1,61 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css"/>
+<!-- the inclusion in modern JS of native functional methods
+	like map, reduce, filter has made underscore a bit less
+	indepsensible.
+<script src="https://cdnjs.cloudfare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+-->
+<body>
+  <div id='chart-holder' class='dev'>
+    <div id='header'>
+      <h2>A Catchy Title Coming Soon...</h2>
+      <p>This is paragraph text with an <span class='alert'>alert!</span></p>
+    </div>
+    <div id='chart-components'>
+      <div id='main'>
+	<!--  <p>A Placeholder for the main chart</p>  -->
+	<svg id='chart'>
+	  <circle r='15' cx='100' cy='50'>1</circle>
+	  <line x1='20' y1='20' x2='20' y2='130'></line>
+	  <line x1='20' y1='130' x2='280' y2='130'></line> 
+	  <rect x='240' y='5' width='55' height='30'></rect>
+	  <polygon points='210,100, 230,100, 220,80'></polygon>
+	  <text id='chart-title' text-anchor='middle' x='150' y='20'>
+	    A Dummy Chart
+	  </text>
+	  <text x='20' y='20' transform='rotate(-90,20,20)'
+	        text-anchor='end' dy='0.71em'>y axis label</text>
+	  <path d='M40 40 
+	           L60 70 
+	           A30 30 0 0 1 80 80 
+		   A50 50 0 0 1 160 80 
+		   A30 30 0 0 1 100 80'></path>
+	  <!-- demonstration of the path arguments for A -->
+	  <g transform='translate(300, 100)'>
+	  <!-- within this group, all x and y are relative to group -->
+	    <path d='M0 10
+	           A30 40 0 0 1 50 10
+		   A30 40 0 0 0 100 10
+		   A30 40 0 1 0 150 10
+		   A30 40 0 1 1 200 10'></path>
+	    <circle r='2' cx='0' cy='10'>1</circle>
+	    <circle r='2' cx='50' cy='10'>1</circle>
+	    <circle r='2' cx='100' cy='10'>1</circle>
+	    <circle r='2' cx='150' cy='10'>1</circle>
+	    <circle r='2' cx='200' cy='10'>1</circle>
+	  </g>
+
+	</svg>
+      </div>
+      <div id='sidebar'>
+        <p>Some useful information about the chart, 
+	probably changing with user interaction </p>
+      </div>
+    </div>
+  </div>
+
+  <script src='http://d3js.org/d3.v3.min.js'></script>
+  <script type="text/javascript" src="script.js" async></script>
+</body>
