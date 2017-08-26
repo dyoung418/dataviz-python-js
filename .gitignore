@@ -1,8 +1,14 @@
 #vim backup files
 *~
+*.pyc
+*.swp
 
 # git repository from book author (don't duplicate in this repository)
 dataviz-with-python-and-js/
 
 # jupyter stuff
 .ipynb_checkpoints/
+
+
+# cache files and others from scrapy
+nobel_winners/.scrapy
