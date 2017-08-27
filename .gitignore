@@ -9,6 +9,8 @@ dataviz-with-python-and-js/
 # jupyter stuff
 .ipynb_checkpoints/
 
-
 # cache files and others from scrapy
 nobel_winners/.scrapy
+nobel_winners/images
+quorum_of_twelve/.scrapy
+quorum_of_twelve/images

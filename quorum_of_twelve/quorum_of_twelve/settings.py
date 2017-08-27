@@ -9,19 +9,21 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'nobel_winners'
+BOT_NAME = 'quorum_of_twelve'
 
-SPIDER_MODULES = ['nobel_winners.spiders']
-NEWSPIDER_MODULE = 'nobel_winners.spiders'
+SPIDER_MODULES = ['quorum_of_twelve.spiders']
+NEWSPIDER_MODULE = 'quorum_of_twelve.spiders'
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'nobel_winners (+http://www.yourdomain.com)'
 # DAY ADDING DOWNLOADER_MIDDLEWARES below to rotate USER_AGENT
-DOWNLOADER_MIDDLEWARES = {
-    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
-    #'scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware' : None,
-    'nobel_winners.comm.rotate_useragent.RotateUserAgentMiddleware' :400
-}
+
+#DOWNLOADER_MIDDLEWARES = {
+#    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+#    #'scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware' : None,
+#    'nobel_winners.comm.rotate_useragent.RotateUserAgentMiddleware' :400
+#}
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
