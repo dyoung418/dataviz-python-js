@@ -65,5 +65,9 @@ class QBasicSpider(scrapy.Spider):
                             qdata['link'] = entry.xpath(\
                                     'following-sibling::tr[1]/td[2]/p/span/a/@href').extract()[0]
                             qdata['section'] = section_text
+                            qdata['date_of_birth'] = entry.xpath(\
+                                    'following-sibling::tr[1]/td[2]/p/span[2]/span[@class="bday"]/text()').extract()[0]
                             yield QBasicItem(**qdata)
+
+
 
