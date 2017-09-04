@@ -159,7 +159,7 @@ class NWinnerSpider(scrapy.Spider):
         # wikidata page.  We need these codes to navigate to the right place
         property_codes = [
             {'name':'date_of_birth', 'code':'P569'},
-            {'name':'date_of_death', 'code':'P576'},
+            {'name':'date_of_death', 'code':'P570'},
             {'name':'place_of_birth', 'code':'P19', 'link':True},
             {'name':'place_of_death', 'code':'P20', 'link':True},
             {'name':'gender', 'code':'P21', 'link':True}

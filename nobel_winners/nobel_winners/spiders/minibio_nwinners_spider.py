@@ -58,6 +58,7 @@ class NWinnerSpiderBio(scrapy.Spider):
             item['image_urls'] = ['https:' + img_src[0].extract()]
 
         mini_bio = ''
+
         # the bio is the first several paragraphs (<p>) after the div of id
         # "mw:content-text".  It stops at the first blank paragraph (<p></p>).
         # this next xpath gets all the paragraphs that are children of the 
@@ -67,12 +68,34 @@ class NWinnerSpiderBio(scrapy.Spider):
         # the p-node in question.  This is to make sure any empty paragraph
         # matches the stop-point marking theh end of the intro section of the
         # biography
-        paras = response.xpath('//*[@id="mw-content-text"]'\
-                                '/p[text() or normalize-space(.)=""]').extract()
-        for p in paras:
-            if p == '<p></p>': # the bios stop point...
-                break
-            mini_bio += p
+
+        # the bio is in a section after a div@id=mw-content-text.  It is the group
+        # of <p> tags between two <h2> tags.  The first of those two <h2> tags
+        # has a <span id="Biography"> within it.
+        # The following xpath goes to the <span id="Biography">, backup up to the
+        # parent (h2), then moves to the *next* h2 which is siblins with the first h2
+        # then selects the *preceding sibling <p> tags. 
+        # By doing it this way, I prevent selecting all the sibling <p> tags after the
+        # first h2 which are also after the *second* h2 (and still siblings of the first).
+
+
+
+        if(True): #this was the books' solution for former format of wikipedia
+            paras = response.xpath('//*[@id="mw-content-text"]'\
+                                 '/div/p[text() or normalize-space(.)=""]').extract()
+            for p in paras:
+                if p == '<p></p>': # the bios stop point...
+                    break
+                mini_bio += p
+        else:
+            bio_start = response.xpath('//*[@id="mw-content-text"]/div' #get to right section
+                '/h2/span[@id="Biography"]' #go to span@id=Biography
+                '/parent::*')                #back up to the span's parent (h2)
+            paras = bio_start.xpath('following-sibling::h2'    #select the *next* h2 sibling
+                '/preceding-sibling::p[text()]').extract()     #select all the *preceding <p>
+            for p in paras:
+                mini_bio += p
+
 
         # convert links in the mini_bio into full absolute links instead of 
         # relative links

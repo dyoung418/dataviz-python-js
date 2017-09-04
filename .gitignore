@@ -14,3 +14,6 @@ nobel_winners/.scrapy
 nobel_winners/images
 quorum_of_twelve/.scrapy
 quorum_of_twelve/images
+
+# github repository for learning pandas
+pandas-cookbook/
