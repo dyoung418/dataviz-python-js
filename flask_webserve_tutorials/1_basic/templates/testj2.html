@@ -1,0 +1,15 @@
+<!-- testj2.html -->
+<!-- This is a Jinja2 template which is used by Flask -->
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<body>
+    <h2>{{ heading }}</h2>
+    <ul>
+        {% for winner in winners %}
+        <li><a href="{{ 'http://wikipedia.com/wiki/' + winner.name }}">{{ winner.name }}</a>
+	    {{ ', category: ' + winner.category }}
+	</li>
+	{% endfor %}
+    </ul>
+</body>

@@ -15,5 +15,8 @@ nobel_winners/images
 quorum_of_twelve/.scrapy
 quorum_of_twelve/images
 
+# generated json files for flask demostration
+flask_webserve_tutorials/2_static/data/nwinners_by_country/*.json
+
 # github repository for learning pandas
 pandas-cookbook/

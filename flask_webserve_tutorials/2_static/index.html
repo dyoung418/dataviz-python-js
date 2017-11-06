@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="css/style.css"> 
+
+<h2 id='data-title'></h2>
+<div id='data'>
+    <pre></pre>
+</div>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="js/script.js"></script>
+
+<button type="button" onclick="loadCountryWinnersJSON('Argentina')">Argentina</button>
+
+<script>
+function loadCountryWinnersJSON(country){
+	d3.json('data/nwinners_by_country/' + country + '.json', function(error, data) {
+		if(error){ console.log(error); }
+
+		d3.select('h2#data-title').text('All the Nobel-winners from ' + country);
+		d3.select('div#data pre').html(JSON.stringify(data, null, 4));
+	});
+}
+</script>
