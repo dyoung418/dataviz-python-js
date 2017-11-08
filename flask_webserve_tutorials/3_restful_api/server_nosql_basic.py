@@ -11,7 +11,7 @@ db = pymongo.MongoClient().nobel_prize
 def get_country_data():
     query_dict = {}
     for key in ['country', 'category', 'year']:
-        arg = pymongo.request.args.get(key) # gives args of request ('?country=Australia&categor=Chemistry')
+        arg = flask.request.args.get(key) # gives args of request ('?country=Australia&categor=Chemistry')
         if arg:
             query_dict[key] = arg
     winners = db.winners_clean.find(query_dict)
