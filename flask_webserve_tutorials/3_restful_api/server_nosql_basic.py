@@ -14,7 +14,7 @@ def get_country_data():
         arg = flask.request.args.get(key) # gives args of request ('?country=Australia&categor=Chemistry')
         if arg:
             query_dict[key] = arg
-    winners = db.winners_clean.find(query_dict)
+    winners = db.winners.find(query_dict)
     if winners:
         return bson.json_util.dumps(winners) # this dumps can serialize date objects
     flask.abort(404) # resource not found
