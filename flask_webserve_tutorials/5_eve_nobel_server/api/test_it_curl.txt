@@ -1,0 +1,2 @@
+curl -g http://127.0.0.1:5000/api/winners\?where\=\{\"country\":\"France\"\}
+curl -g http://127.0.0.1:5000/api/winners\?where\=\{\"year\":\{\"\$gt\":2000\},\"gender\":\"female\"\}
