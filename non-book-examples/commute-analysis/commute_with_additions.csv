@@ -1,0 +1,52 @@
+,Timestamp,email,job,zip,shuttle,alternative,commute_text,commute_minutes,commute_bins,country,zip_code,city,state,state_code,county,county_code,place,place_code,latitude,longitude,accuracy,area
+0,1/10/2018 13:53:21,lehla@google.com,assoc,94040,No,Drive,15 mins,15,"[0.0, 60.0)",US,94040,Mountain View,California,CA,Santa Clara,85.0,,,37.3855,-122.088,4.0,Near MTV
+1,1/10/2018 14:13:08,dannyyoung@google.com,dir,94022,No,car,25 min,25,"[0.0, 60.0)",US,94022,Los Altos,California,CA,Santa Clara,85.0,,,37.3814,-122.1258,4.0,Near MTV
+2,1/10/2018 14:13:22,wendyklogan@google.com,prin,94105,No,Driving,1.5 hours each way,90,"[60.0, 120.0)",US,94105,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.7864,-122.3892,4.0,SF/Oakland
+3,1/10/2018 14:13:25,akurzrok@google.com,assoc,94114,Yes,,"1 hour 35 minutes each way, plus/minus 20 mins",95,"[60.0, 120.0)",US,94114,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.7587,-122.43299999999999,4.0,SF/Oakland
+4,1/10/2018 14:13:31,daveqsang@google.com,assoc,94040,No,Bike,10,10,"[0.0, 60.0)",US,94040,Mountain View,California,CA,Santa Clara,85.0,,,37.3855,-122.088,4.0,Near MTV
+5,1/10/2018 14:13:58,manuelribeiro@google.com,assoc,94103,Yes,,1h30,90,"[60.0, 120.0)",US,94103,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.7725,-122.4147,4.0,SF/Oakland
+6,1/10/2018 14:14:31,haileycrowel@google.com,assoc,94109,Yes,,"1:20 in the morning, 1:45 in the evening for a total of 3:05",90,"[60.0, 120.0)",US,94109,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.7917,-122.4186,4.0,SF/Oakland
+7,1/10/2018 14:14:31,stevenpecht@google.com,assoc,94102,Yes,,1.5 hrs each way,90,"[60.0, 120.0)",US,94102,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.7813,-122.4167,4.0,SF/Oakland
+8,1/10/2018 14:15:04,jsbrito@google.com,assoc,94108,Yes,,"2.25 hours (However, I take a 6:20a and a 7:00p bus)",145,"[120.0, inf)",US,94108,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.7929,-122.4079,4.0,SF/Oakland
+9,1/10/2018 14:15:48,skoblin@google.com,assoc,94041,No,Car or Bike,15 mins,15,"[0.0, 60.0)",US,94041,Mountain View,California,CA,Santa Clara,85.0,,,37.3893,-122.0783,4.0,Near MTV
+10,1/10/2018 14:17:07,rishimittal@google.com,assoc,94103,Yes,,"Including walking time, 1.25 - 1.5 hours depending on the time of shuttle",83,"[60.0, 120.0)",US,94103,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.7725,-122.4147,4.0,SF/Oakland
+11,1/10/2018 14:20:16,sabreu@google.com,dir,94114,No,Drive,1h 10mins,70,"[60.0, 120.0)",US,94114,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.7587,-122.43299999999999,4.0,SF/Oakland
+12,1/10/2018 14:20:29,yooki@google.com,prin,94010,"Occasionally (used to 100%, but now driving 90% of time)",Drive,~40min AM,50,"[0.0, 60.0)",US,94010,Burlingame,California,CA,San Mateo,81.0,,,37.5671,-122.3676,4.0,Peninsula
+13,1/10/2018 14:22:04,edelgm@google.com,assoc,94102,Yes,,"1hr 40M morning, 1 hr 10M evening",80,"[60.0, 120.0)",US,94102,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.7813,-122.4167,4.0,SF/Oakland
+14,1/10/2018 14:22:42,cmsmith@google.com,prin,94025,No,Drive,35 mins,35,"[0.0, 60.0)",US,94025,Menlo Park,California,CA,San Mateo,81.0,,,37.4396,-122.1864,4.0,Peninsula
+15,1/10/2018 14:23:31,luisvilela@google.com,prin,94105,Yes,,85 minutes,85,"[60.0, 120.0)",US,94105,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.7864,-122.3892,4.0,SF/Oakland
+16,1/10/2018 14:23:50,kristengil@google.com,dir,94024,No,Drive,25 min,25,"[0.0, 60.0)",US,94024,Los Altos,California,CA,Santa Clara,85.0,,,37.3547,-122.0862,4.0,Near MTV
+17,1/10/2018 14:23:55,tsinglingtan@google.com,assoc,94063,Shuttle two days a week,Drive,1 hour (drop off the LO on a few days a week),60,"[60.0, 120.0)",US,94063,Redwood City,California,CA,San Mateo,81.0,,,37.4815,-122.2091,4.0,Peninsula
+18,1/10/2018 14:24:33,abigailkm@google.com,assoc,94110,Yes,,2 hours,120,"[120.0, inf)",US,94110,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.7509,-122.4153,4.0,SF/Oakland
+19,1/10/2018 14:29:11,alexcrosby@google.com,assoc,94109,Yes,,2 hrs,120,"[120.0, inf)",US,94109,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.7917,-122.4186,4.0,SF/Oakland
+20,1/10/2018 14:29:47,richardkotite@google.com,assoc,95051,No,Car,20,20,"[0.0, 60.0)",US,95051,Santa Clara,California,CA,Santa Clara,85.0,,,37.3483,-121.9844,4.0,South Bay
+21,1/10/2018 14:32:26,stevenjoliver@google.com,prin,94618,Yes,,100 mins,100,"[60.0, 120.0)",US,94618,Oakland,California,CA,Alameda,1.0,,,37.8431,-122.2402,4.0,SF/Oakland
+22,1/10/2018 14:34:27,darclyn@google.com,assoc,94010,Yes,,1.5 hours,90,"[60.0, 120.0)",US,94010,Burlingame,California,CA,San Mateo,81.0,,,37.5671,-122.3676,4.0,Peninsula
+23,1/10/2018 14:37:19,ashleycornall@google.com,assoc,94109,Yes,,2.5 hours,150,"[120.0, inf)",US,94109,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.7917,-122.4186,4.0,SF/Oakland
+24,1/10/2018 15:32:55,jmeehan@google.com,prin,94403,Yes,,50-60 minutes,55,"[0.0, 60.0)",US,94403,San Mateo,California,CA,San Mateo,81.0,,,37.5395,-122.2998,4.0,Peninsula
+25,1/10/2018 15:37:10,salk@google.com,prin,94109,Yes,,"3 hours, both ways. ",180,"[120.0, inf)",US,94109,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.7917,-122.4186,4.0,SF/Oakland
+26,1/10/2018 15:37:19,danielspector@google.com,assoc,94114,Yes,,1:45 (one way),105,"[60.0, 120.0)",US,94114,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.7587,-122.43299999999999,4.0,SF/Oakland
+27,1/10/2018 15:41:27,sophiesanders@google.com,prin,94022,No,Drive,23mins,23,"[0.0, 60.0)",US,94022,Los Altos,California,CA,Santa Clara,85.0,,,37.3814,-122.1258,4.0,Near MTV
+28,1/10/2018 15:58:20,feira@google.com,prin,94306,No,Bike or drive,15,15,"[0.0, 60.0)",US,94306,Palo Alto,California,CA,Santa Clara,85.0,,,37.418,-122.1274,4.0,Near MTV
+29,1/10/2018 16:19:03,jincjia@google.com,assoc,94103,Yes,,1.5 hours,90,"[60.0, 120.0)",US,94103,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.7725,-122.4147,4.0,SF/Oakland
+30,1/10/2018 16:46:41,trbeals@google.com,dir,94043,No,Bike,8 minutes,8,"[0.0, 60.0)",US,94043,Mountain View,California,CA,Santa Clara,85.0,,,37.4056,-122.0775,4.0,Near MTV
+31,1/10/2018 17:06:33,avr@google.com,dir,94070,No,Drive,1 hour (but I don't take the most efficient route because I need to do a school run on the way to work),60,"[60.0, 120.0)",US,94070,San Carlos,California,CA,San Mateo,81.0,,,37.4969,-122.2674,4.0,Peninsula
+32,1/10/2018 19:48:36,stefanotissino@google.com,assoc,94123,Yes,,2.5 hours,150,"[120.0, inf)",US,94123,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.7999,-122.4342,4.0,SF/Oakland
+33,1/10/2018 20:50:15,ivanho@google.com,assoc,94086,No,Drive,20 minutes,20,"[0.0, 60.0)",US,94086,Sunnyvale,California,CA,Santa Clara,85.0,,,37.3764,-122.0238,4.0,Near MTV
+34,1/10/2018 21:15:14,marklewis@google.com,dir,94040,No,car,15mins,15,"[0.0, 60.0)",US,94040,Mountain View,California,CA,Santa Clara,85.0,,,37.3855,-122.088,4.0,Near MTV
+35,1/10/2018 21:49:36,mbullock@google.com,prin,95070,Yes,,45 min,45,"[0.0, 60.0)",US,95070,Saratoga,California,CA,Santa Clara,85.0,,,37.2713,-122.0227,4.0,South Bay
+36,1/11/2018 8:52:32,macleanshea@google.com,assoc,94110,Yes,,100 minutes,100,"[60.0, 120.0)",US,94110,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.7509,-122.4153,4.0,SF/Oakland
+37,1/11/2018 10:01:47,renukar@google.com,assoc,94027,No,Drive,45 minutes,45,"[0.0, 60.0)",US,94027,Atherton,California,CA,San Mateo,81.0,,,37.4563,-122.2002,4.0,Peninsula
+38,1/11/2018 10:24:30,uppilisr@google.com,assoc,95148,Yes,,1 hour 45 minutes,105,"[60.0, 120.0)",US,95148,San Jose,California,CA,Santa Clara,85.0,,,37.3304,-121.7913,4.0,South Bay
+39,1/11/2018 18:10:45,anefabo@google.com,assoc,94085,Yes,,"35min one-way on the shuttle, 12min on the car",35,"[0.0, 60.0)",US,94085,Sunnyvale,California,CA,Santa Clara,85.0,,,37.3886,-122.0177,4.0,Near MTV
+40,1/11/2018 21:32:14,chrispurvis@google.com,assoc,94040,No,bike,25 minutes,25,"[0.0, 60.0)",US,94040,Mountain View,California,CA,Santa Clara,85.0,,,37.3855,-122.088,4.0,Near MTV
+41,1/12/2018 9:23:49,kgrose@google.com,assoc,94109,Yes,,2 hours,120,"[120.0, inf)",US,94109,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.7917,-122.4186,4.0,SF/Oakland
+42,1/16/2018 11:34:51,nikkilu@google.com,assoc,94109,Yes,,2hrs,120,"[120.0, inf)",US,94109,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.7917,-122.4186,4.0,SF/Oakland
+43,1/16/2018 11:35:05,omarhmaissy@google.com,assoc,94105,Yes,,1h 45 min,105,"[60.0, 120.0)",US,94105,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.7864,-122.3892,4.0,SF/Oakland
+44,1/16/2018 11:40:02,jsilvestro@google.com,assoc,94131,No,I drive,70 minutes,70,"[60.0, 120.0)",US,94131,San Francisco,California,CA,City and County of San Francisco,75.0,,,37.745,-122.4383,4.0,SF/Oakland
+45,1/16/2018 11:41:05,sgassee@google.com,prin,94062,No,drive,35mins,35,"[0.0, 60.0)",US,94062,Redwood City,California,CA,San Mateo,81.0,,,37.4245,-122.296,4.0,Peninsula
+46,1/16/2018 12:24:45,pkz@google.com,prin,94301,No,"Primarily car, occasionally bike.",Car ranges 10-20 mins,15,"[0.0, 60.0)",US,94301,Palo Alto,California,CA,Santa Clara,85.0,,,37.4443,-122.1497,4.0,Near MTV
+47,1/16/2018 12:54:37,eitanrs@google.com,assoc,94040,sometimes,"Car, bike",10-15 minutes,15,"[0.0, 60.0)",US,94040,Mountain View,California,CA,Santa Clara,85.0,,,37.3855,-122.088,4.0,Near MTV
+48,1/16/2018 12:55:57,ogunsanwo@google.com,prin,94043,Yes,,7 minutes,7,"[0.0, 60.0)",US,94043,Mountain View,California,CA,Santa Clara,85.0,,,37.4056,-122.0775,4.0,Near MTV
+49,1/16/2018 13:31:17,parkerbarnes@google.com,assoc,94062,No,Car,30,30,"[0.0, 60.0)",US,94062,Redwood City,California,CA,San Mateo,81.0,,,37.4245,-122.296,4.0,Peninsula
+50,1/16/2018 20:35:02,annieklemp@google.com,prin,,No,I drive,30 minutes in the morning,15,"[0.0, 60.0)",,,,,,,,,,,,,
